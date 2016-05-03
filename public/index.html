@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html ng-app="deviceIotApp">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <title>IoT devices List</title>
+</head>
+
+<body>
+  <div class="container" ng-controller="DevicesListCtrl">
+    <h1>IoT</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>IP</th>
+          <th>Version</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="controllers/DevicesListCtrl.js"></script>
+</html>
